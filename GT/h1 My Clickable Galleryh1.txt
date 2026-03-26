@@ -1,0 +1,15 @@
+<h1> My Clickable Gallery</h1>
+<a href = "https://www.prorodeo.com/">
+<img src="https://servedbyadbutler.com/getad.img/;libID=637754" alt="PRCA by Resistol">
+</a>
+<p>ProRodeo Association. Sponsored by Resistol
+
+<a href="https://www.wrangler.com/?utm_medium=cpc&utm_source=google&utm_campaign=Brand%20-%20Plus%20-%20Jeans%20-%20Exact&utm_content=Jeans%20-%20General&utm_term=wrangler%20jean&gclsrc=aw.ds&gad_source=1&gad_campaignid=663946002&gbraid=0AAAAAD0bb19RQiDcRQoJ2XBO0DwbvLurJ&gclid=Cj0KCQiAy6vMBhDCARIsAK8rOglW8ZeOrRTpoKZv9CzyNHXLj_railZcgHw-V-LfRjSo2DeItuzSqsoaAnMOEALw_wcB">
+  <img src="https://media.wrangler.com/i/wrangler/S26-Brushpopper-PLPHero_Mobile?&w=768&qlt=80" alt = "The Clothing of the Cowboy West">
+  </a>
+  <p> Underneath the flashy shirts and creased jeans on the outside, is the man i am on the inside. </p>
+
+  <a href="https://www.edmunds.com/ford/shelby-gt500/2007/vin/1ZVHT88S175240330/?radius=100">
+    <img src="https://www.edmunds.com/assets/m/for-sale/0d-1zvht88s175240330/img-1-600x400.jpg" alt="2007 Shelby GT500">
+    </a>
+  <p> This is one of my dream cars. American muscle, Ford tough, and Shelby speed!</p>

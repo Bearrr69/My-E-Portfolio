@@ -1,0 +1,253 @@
+/*
+ * Base structure
+ */
+
+body {font-family: "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+background-color: #eef1f6; font-size: 14px;
+}
+
+.btn-primary {background: #c0daf0; color: #000; border: none; }
+
+/*
+ * Typography
+ */
+
+h1 {
+  
+  
+  border-bottom: 1px solid #eee;
+	font-size: 24px;
+}
+
+h2 {font-size: 18px; font-weight: bold}
+
+h3 {font-size: 16px; font-weight: bold}
+
+/*
+ * Sidebar
+ */
+
+.well {border: 1px #ccc solid; border-radius: 5px; padding: 20px; background: #ffffff;}
+
+.sidebar {
+  position: fixed;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  border-right: 1px solid #eee;
+}
+
+.sidebar .nav {
+  margin-bottom: 20px;
+}
+
+.sidebar .nav-item {
+  width: 100%;
+}
+
+.sidebar .nav-item + .nav-item {
+  margin-left: 0;
+}
+
+.sidebar .nav-link {
+  border-radius: 0;
+}
+
+/*
+ * Dashboard
+ */
+
+/* Placeholders */
+.placeholders {
+  padding-bottom: 3rem;
+}
+
+.placeholder img {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/*.ui .input {
+    width : 50% !important;
+}*/
+
+.programJob input {
+    width: 400px;
+}
+
+.ui .fitted .toggle .checkbox {
+    top: 10px !important;
+    padding-right: 2rem !important;
+}
+
+.ui.search > .results {
+    width: 30em !important;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.ListItemEven,
+.ListItemOdd {
+    align-items: center;
+    justify-content: center;
+    display: table-row;
+}
+
+.ListItemEven {
+    background-color: rgba(0,0,0,.075)
+}
+
+.rTableHeading {
+    display: table-header-group;
+    font-weight: bold;
+}
+.rTableCell, .rTableHead {
+    display: table-cell;
+    /*border: 1px solid rgba(34,36,38,.1);*/
+    width: 200px;
+    overflow: hidden;
+}
+
+.ui.table thead th {
+    padding: unset !important;
+    background-color: #ccc
+}
+
+.programFilter input {
+    text-align: center !important;
+}
+
+.programFilter input::placeholder {
+    font-weight: bold;
+}
+
+/*.pabloNeruda input {
+    font-weight: bold;
+    background-color: lightblue !important;
+    text-align: center !important;
+}
+
+    .pabloNeruda input::placeholder {
+        color: black !important;
+    }
+*/
+
+.modRigth th {
+    text-align : right;
+}
+
+
+.react-datepicker-popper {
+    z-index: 1000 !important;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .ui.selection.dropdown .menu {
+        /*      max-height: 8.01428571rem; /* + 1.335714285 to 9.349999995rem */
+        /*      max-height: 9.349999995rem; /* Adds a half */
+        max-height: 16.02857142rem; /* Double size */
+    }
+}
+
+.dx-datagrid-text-content {
+    font-weight: bold;
+    color:#333
+}
+
+.dx-datagrid-header-panel .dx-toolbar
+{
+    margin-top: 10px;
+    margin-left :-10px;
+}
+
+.dx-popup-content-dataGridShoopingCart
+{
+    height: 99%;
+    overflow-y: scroll;
+}
+
+.dx-datagrid-rowsview .dx-data-row .dx-cell-modified .dx-highlight-outline::after {
+    border-color: transparent !important;
+}
+
+.dx-field-label {
+    text-align: right !important;
+    font-weight:bold !important;
+}
+
+
+
+/*.inactiveCostCode h3 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+.inactiveCostCode h3 span {
+    background: #eef1f6;
+    padding: 0 10px;
+}*/
+
+/*.dx-rtl .dx-datagrid-rowsview .dx-selection.dx-row > td:not(.dx-focused).dx-datagrid-group-space,
+.dx-rtl .dx-datagrid-rowsview .dx-selection.dx-row:hover > td:not(.dx-focused).dx-datagrid-group-space {
+    border-left-color: #bf4e6a;
+}
+
+.dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-lines) > td,
+.dx-datagrid-rowsview .dx-selection.dx-row:hover:not(.dx-row-lines) > td {
+    border-bottom: 1px solid #bf4e6a;
+    border-top: 1px solid #bf4e6a;
+}
+
+.dx-datagrid-rowsview .dx-selection.dx-row > td.dx-datagrid-group-space,
+.dx-datagrid-rowsview .dx-selection.dx-row:hover > td.dx-datagrid-group-space {
+    border-right-color: #bf4e6a;
+}
+
+.dx-datagrid-rowsview .dx-selection.dx-row > td,
+.dx-datagrid-rowsview .dx-selection.dx-row:hover > td {
+    background-color: #bf4e6a;
+    color: #232323;
+}
+
+.dx-datagrid-table .dx-data-row.dx-state-hover:not(.dx-selection):not(.dx-row-inserted):not(.dx-row-removed):not(.dx-edit-row) > td:not(.dx-focused) {
+    background-color: #bf4e6a;
+    color: #333;
+}*/
+
+
+.jobMainTable td {
+    vertical-align: middle;
+}
+
+.jobMainTable .current-value {
+    display: inline-block;
+}
+
+.jobMainTable .diff {
+    position: relative;
+    display: table-cell;
+    font-size: 16px;
+}
+
+.feedback-button-group {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.feedback-button-group .dx-button {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
